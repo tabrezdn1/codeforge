@@ -5,7 +5,7 @@ from ..prompts import COMPLIANCE_CHECKER_PROMPT
 
 compliance_checker_agent = LlmAgent(
     name="compliance_checker_agent",
-    model="gemini-2.5-pro",
+    model="gemini-2.5-flash",
     instruction=COMPLIANCE_CHECKER_PROMPT,
     output_key="compliance_results",
 )

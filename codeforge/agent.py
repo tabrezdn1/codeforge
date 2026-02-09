@@ -28,7 +28,7 @@ from .tools._rendering_tools import generate_diagram_from_mermaid
 # The main Orchestrator Agent
 orchestrator_agent = Agent(
     name="orchestrator_agent",
-    model="gemini-2.5-pro",
+    model="gemini-2.5-flash",
     instruction=ORCHESTRATOR_PROMPT,
     tools=[
         # Direct tools
